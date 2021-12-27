@@ -21,9 +21,3 @@ This work based on [Matt Bierner's work](https://github.com/mjbvz/vscode-fenced-
 This extension does not add the grammar; it only connects Markdown ASM code blocks to the existing ASM grammar.
 
 For this reason, it requires a preexisting extension that provides the grammar, for example, [nasm x86 syntax highlighting](https://marketplace.visualstudio.com/items?itemName=LucianIrsigler.nasm).
-
-## Integration notes
-
-When integrating into an existing project, a new language id entry needs to be added; if an existing one is recycled, the grammar will apply only to the new scope.
-
-See [PR on ASM Code Lens](https://github.com/maziac/asm-code-lens/pull/65).
